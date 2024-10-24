@@ -126,7 +126,7 @@ a {
         padding: 30px; /* Kichik ekranlar uchun padding */
         width: 90%; /* Kichik ekranlarga mos kenglik */
         max-width: 350px; /* Kichik ekranlar uchun maksimal kenglik */
-        margin-left: 80px;
+        margin-left: 100px;
     
     }
 }
