@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(tog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    max-width: 900px;
+
+}
+
+.phone-preview img {
+    width: 450px;
+    height: auto;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 5px;
+    background: transparent;
+    backdrop-filter: blur(15px)
+}
+
+.form-container input::placeholder {
+    color: white;
+}
+
+h1 {
+    font-family: 'Instagram Logo Font';
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    background: transparent;
+}
+
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.or span {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.or p {
+    margin: 0 20px;
+    font-size: 14px;
+    color: yellow;
+}
+
+.facebook-login {
+    background-color: transparent;
+    color: rgb(0, 140, 255);
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+a {
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.signup-container {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    color: white;
+}
+
+.signup-container a {
+    font-weight: 900;
+}
+
+/* Boshqa qism o'zgarmaydi */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 15px; /* Kichik ekranlar uchun padding */
+        width: 90%; /* Kichik ekranlarga mos kenglik */
+        max-width: 350px; /* Kichik ekranlar uchun maksimal kenglik */
+    }
+}
+
+/* Kompyuter ekranlari uchun */
+@media (min-width: 601px) {
+    .form-container {
+        width: 400px; /* Kompyuterlar uchun maxsus kenglik */
+    }
+}
