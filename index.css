@@ -123,9 +123,11 @@ a {
 /* Boshqa qism o'zgarmaydi */
 @media (max-width: 600px) {
     .form-container {
-        padding: 15px; /* Kichik ekranlar uchun padding */
+        padding: 30px; /* Kichik ekranlar uchun padding */
         width: 90%; /* Kichik ekranlarga mos kenglik */
         max-width: 350px; /* Kichik ekranlar uchun maksimal kenglik */
+        margin-left: 80px;
+    
     }
 }
 
